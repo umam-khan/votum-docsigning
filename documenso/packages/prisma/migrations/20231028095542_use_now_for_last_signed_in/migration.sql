@@ -1,0 +1,4 @@
+-- AlterTable
+ALTER TABLE "User"
+ALTER COLUMN "lastSignedIn"
+SET DEFAULT CURRENT_TIMESTAMP;
